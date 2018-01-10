@@ -1,7 +1,3 @@
-'''
-Product
-
-'''
 class Product(object):
     def __init__(self, item_name, brand, price, weight):
         self.price = price
@@ -40,7 +36,4 @@ class Product(object):
 Product Input - (Item Name, Brand, Price(int), Weight(int))
 Return Condictions - Defective, Like New, Used
 '''
-bike = Product('Macbook Pro', 'Apple', 2000, 12)
-
-bike.return_item('used').display_info()
 
